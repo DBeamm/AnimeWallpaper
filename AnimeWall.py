@@ -26,8 +26,5 @@ def main():
     except:
         popup = ctypes.windll.user32.MessageBoxW(0, "Não foi possivel iniciar devido a um erro desconhecido.", "ANIME WALLPAPER", 1)
 
-#         toats = ToastNotifier()
-#         toats.show_toast("ANIME WALLPAPER", "Erro ao trocar papel de parede, Inicie o programa novamente.", duration=12)
-
 if __name__ == '__main__':
     main()
